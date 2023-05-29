@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+
+        <form>
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" name="nome">
+            </div>
+<!-- placeholder= deixa a sugestão do que deve ser digitado no input, ao ser clicado, some.-->
+<!-- value= deixa o texto inicial ja escrito no input, não da para ser retirado. -->           
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email"  id="email" name="email">
+            </div>
+
+            <div>
+                <label for="Data">Data de Nascimento:</label>
+                <input type="date"  id="data" name="Data">
+            </div>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="Time"  id="hora" name="hora">
+            </div>
+
+            <div>
+                <label for="numero">Número:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+
+            <div>
+                <label for="arquivo">Anexo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <div>
+                <label for="link">Link:</label>
+                <input type="url" id="link" name="link">
+            </div>
+
+            <div>
+                <label for="cor">Cor:</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <div>
+                <label for="volume">volume:</label>
+                <input type="range" id="volume" name="volume">
+            </div>
+
+            <div>
+                <label for="check">Selecione:</label>
+                <input type="checkbox" id="check" name="check">
+            </div> 
+            <!-- checked deixa o campo ja selecionado -->
+
+            <div>
+                <label for="check">Selecione:</label>
+                <input type="radio" id="check" name="check">
+            </div>
+     
+            <div>
+                <label for="check">Estado Civil:</label>
+                <select name="select" id="select">
+                    <option value=""disabled selected>Selecione uma das opções...</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                    <option value="UniaoEstavel">Uniao Estável</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="Viuvo">Viuvo</option>
+                </select>
+            </div>
+            <br>
+            
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            
+            <div>
+                <input type="Reset" id="Limpar" name="Limpar" value="Limpar">
+
+                <input type="submit" id="enviar" name="enviar" value="Enviar">
+            </div>
+
+
+        </form>
+
+    </main>
+</body>
+</html>
